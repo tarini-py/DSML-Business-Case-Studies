@@ -1,3 +1,5 @@
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tarini%20Prasad%20Samantray-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mr-tps/)
+
 # Netflix Data Analysis 📊
 
 This project analyzes Netflix's catalog of movies and TV shows to uncover insights about content distribution, ratings, genres, and release patterns. The goal is to provide **business recommendations** for Netflix to optimize its content strategy across different countries and time periods.
@@ -88,4 +90,6 @@ The report contains charts for:
 
 ---
 
-👩‍💻 **Author**: Tarini Prasad Samantray
+👩‍💻 **Author**: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tarini%20Prasad%20Samantray-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mr-tps/)
+
+---

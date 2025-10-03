@@ -1,3 +1,5 @@
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tarini%20Prasad%20Samantray-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mr-tps/)
+
 # DSML Business Case Studies 📊
 
 This repository contains a collection of **Data Science and Machine Learning (DSML) business case studies**.
@@ -47,3 +49,9 @@ Licensed under the **MIT License** – free to use and modify.
 ---
 
 ✨ *Exploring business insights through data science and machine learning!*
+
+---
+
+👩‍💻 **Author**: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tarini%20Prasad%20Samantray-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mr-tps/)
+
+---
