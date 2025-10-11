@@ -17,6 +17,7 @@ Each folder focuses on solving a real-world style business problem using data an
 
 ## 📂 Case Studies
 
+* **Yulu Case Study** → Micro-mobility demand analysis, seasonal & weather patterns, operational recommendations, and KPIs
 * **Walmart Case Study** → Sales insights, seasonal trends, and business recommendations
 * **Aerofit Case Study** → Customer profiling, product performance, and marketing strategy
 * **Netflix Case Study** → Content analysis, viewership trends, and clustering insights
