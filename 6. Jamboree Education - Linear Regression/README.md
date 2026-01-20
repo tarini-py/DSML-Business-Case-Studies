@@ -5,6 +5,11 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bxn1Eb43hsYnt1Y_dUXoQROBSfsprhDu?usp=sharing)
 
+## 📊 View on Kaggle
+
+[![Kaggle](https://img.shields.io/badge/Open%20in-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/tariniprasad0x/jamboree-education-linear-regression)
+
+
 ---
 # Jamboree Education - Linear Regression
 
