@@ -1,6 +1,10 @@
 # 🎓 Graduate Admissions Prediction – Business Case Study (Linear Regression)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tarini%20Prasad%20Samantray-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mr-tps/)
 
+## 🚀 Run on Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bxn1Eb43hsYnt1Y_dUXoQROBSfsprhDu?usp=sharing)
+
 ---
 # Jamboree Education - Linear Regression
 
