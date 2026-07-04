@@ -1,3 +1,9 @@
+---
+
+Part of the [DSML Business Case Studies](https://github.com/tarini-py/DSML-Business-Case-Studies) portfolio.
+
+---
+
 # Zee — Personalized Movie Recommender System
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tarini%20Prasad%20Samantray-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mr-tps/)
@@ -25,20 +31,17 @@ Three linked files (`::`-delimited), loaded from a shared Google Drive folder:
 Every user has rated at least 20 movies. *(The schema mirrors the well-known **MovieLens 1M** dataset, used here as the backing data for the Zee business scenario.)*
 
 ## Exploratory Data Analysis
-
+ 
 - **Who rates:** mostly male users; the 25–34 age band is the most active rater group; `college/grad student` rates the most overall, and `executive/managerial` leads among users with full-time jobs.
-- **What's in the catalog:** the majority of titles were released in the **1990s**.
-
+- **Genre mix:** Drama (25.0%) and Comedy (18.7%) dominate the catalog; the remaining seventeen genres each make up less than 8%, with Film-Noir the rarest at 0.7%.
   <img src="assets/genre_distribution.png" width="600" alt="Percentage distribution of movie genres">
-
-- **When people rate:** activity was profiled by hour, day of week, and month to surface engagement rhythms.
-
+- **Catalog age:** new releases climb steadily through the dataset's window and peak in the **1990s** before tapering off.
+  <img src="assets/movies_per_year.png" width="600" alt="Number of movies released per year">
+- **When people rate:** activity was profiled by hour, day of week, and month to surface engagement rhythms — clear troughs appear in the late-morning hours across every day of the week.
   <img src="assets/activity_heatmap.png" width="600" alt="Heatmap of user rating activity by day and hour">
-
-- **What's popular:** *American Beauty (1999)* has more ratings than any other title in the catalog.
-
-  <img src="assets/top10_movies.png" width="600" alt="Top 10 most-rated movies on the platform">
-
+- **What's popular:** *American Beauty (1999)* has the most ratings of any title in the catalog (3,428), based on a direct count of the raw ratings table.
+  <img src="assets/top5_movies_corrected.png" width="600" alt="Top 5 most-rated movies on the platform, by direct rating count">
+  > **Note:** the notebook's own "Top 10 Most-Rated Movies" chart (built by merging ratings against the genre-exploded `movies` table) shows the Star Wars trilogy in the top spots instead. That's a duplicate-counting artifact — `movies.explode('Genres')` runs *before* that merge, so a rating for a movie tagged with 5 genres gets counted 5 times. The chart above uses `ratings.groupby('MovieID').count()` directly on the un-exploded data, which matches the notebook's own Questionnaire answer. Worth a one-line fix (`.drop_duplicates()` on MovieID before merging, or aggregating before the explode) if you want the in-notebook chart to match.
 - **Taste by demographic:** average rating by genre was compared across gender and occupation to see where preferences diverge.
 
 ## Modeling Approach
@@ -111,4 +114,3 @@ pip install optuna cmfrec
 Open the notebook in Colab or Jupyter and run top to bottom — the data-loading cell pulls all three `.dat` files automatically via `gdown`. Note: the interactive recommendation widgets need a live kernel and won't render their controls in GitHub's static notebook preview.
 
 ---
-Part of the [DSML Business Case Studies](https://github.com/tarini-py/DSML-Business-Case-Studies) portfolio.
