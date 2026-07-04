@@ -1,3 +1,9 @@
+---
+
+Part of the [DSML Business Case Studies](https://github.com/tarini-py/DSML-Business-Case-Studies) portfolio.
+
+---
+
 # Zee — Personalized Movie Recommender System
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tarini%20Prasad%20Samantray-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mr-tps/)
@@ -111,4 +117,4 @@ pip install optuna cmfrec
 Open the notebook in Colab or Jupyter and run top to bottom — the data-loading cell pulls all three `.dat` files automatically via `gdown`. Note: the interactive recommendation widgets need a live kernel and won't render their controls in GitHub's static notebook preview.
 
 ---
-Part of the [DSML Business Case Studies](https://github.com/tarini-py/DSML-Business-Case-Studies) portfolio.
+
