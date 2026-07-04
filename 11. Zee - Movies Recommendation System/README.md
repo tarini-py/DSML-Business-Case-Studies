@@ -114,3 +114,7 @@ pip install optuna cmfrec
 Open the notebook in Colab or Jupyter and run top to bottom — the data-loading cell pulls all three `.dat` files automatically via `gdown`. Note: the interactive recommendation widgets need a live kernel and won't render their controls in GitHub's static notebook preview.
 
 ---
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31c2d65d84e823fbd0624dcbf6f6d2c5533b82b2
