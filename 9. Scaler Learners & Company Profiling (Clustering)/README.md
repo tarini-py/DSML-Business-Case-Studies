@@ -1,3 +1,9 @@
+---
+
+Part of the [DSML Business Case Studies](https://github.com/tarini-py/DSML-Business-Case-Studies) portfolio.
+
+---
+
 # Scaler Learner & Company Profiling — Unsupervised Clustering
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tarini%20Prasad%20Samantray-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mr-tps/)
