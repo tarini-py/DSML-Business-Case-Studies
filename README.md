@@ -2,54 +2,32 @@
 
 # DSML Business Case Studies 📊
 
-This repository contains a collection of **Data Science and Machine Learning (DSML) business case studies**.
-Each folder focuses on solving a real-world style business problem using data analysis, visualization, statistics, and predictive modeling.
-
----
-
-## 🎯 Objectives
-
-* Apply DSML techniques to practical business problems
-* Showcase end-to-end workflows: data cleaning, exploratory analysis, hypothesis testing, feature engineering, and modeling
-* Generate actionable insights and recommendations for decision-making
-
----
+A collection of business case studies solved using Data Science & Machine Learning — covering EDA, statistical inference, and predictive modeling on real-world style business problems.
 
 ## 📂 Case Studies
 
-* **Yulu Case Study** → Micro-mobility demand analysis, seasonal & weather patterns, operational recommendations, and KPIs
-* **Walmart Case Study** → Sales insights, seasonal trends, and business recommendations
-* **Aerofit Case Study** → Customer profiling, product performance, and marketing strategy
-* **Netflix Case Study** → Content analysis, viewership trends, and clustering insights
-
----
+1. **Netflix** — Content analysis & EDA
+2. **Aerofit** — Customer profiling & product performance
+3. **Walmart** — Sales insights & seasonal trends
+4. **Yulu** — Micro-mobility demand analysis
+5. **Delhivery** — Logistics & feature engineering
+6. **Jamboree Education** — Linear Regression (admission prediction)
+7. **LoanTap** — Logistic Regression (loan default prediction)
+8. **Ola Drivers' Churn Analysis** — Ensemble Learning
+9. **Scaler Learners & Company Profiling** — Clustering
+10. **AdEase** — Website Views Forecasting (Time Series Analysis)
+11. **Zee** — Movies Recommendation System
 
 ## 🛠️ Tech Stack
 
-* **Languages:** Python
-* **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-* **Tools:** Jupyter Notebook, Google Colab
-* **Focus Areas:** EDA, Hypothesis Testing, Modeling, Business Insights
+- **Language:** Python
+- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Statsmodels, SciPy
+- **Tools:** Jupyter Notebook
 
----
+## 📁 Structure
 
-## 🤝 Contributions
+Each numbered folder contains a self-contained notebook with the analysis, visualizations, and business recommendations for that case study.
 
-Contributions are welcome!
-
-* Fork the repo
-* Add your case study in a new folder
-* Submit a pull request
-
----
-
-## 📜 License
-
-Licensed under the **MIT License** – free to use and modify.
-
----
-
-✨ *Exploring business insights through data science and machine learning!*
 
 ---
 
